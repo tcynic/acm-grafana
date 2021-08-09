@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: "grafana"
+    openshift.io/display-name: "Grafana"
+    openshift.io/requester: kubeadmin
+  labels:
+    kubernetes.io/metadata.name: grafana
+  name: grafana
+spec: {}
